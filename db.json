@@ -3,5 +3,11 @@
     { "id": 1, "name": "Bichi Pham", "phone": "0919025626", "note": "Khach vip" }
   ],
   "appointments": [
-  ]
+  ],
+  "verhicleInfo": {
+    "year": [1990, 2995, 2008, 2012, 2020, 2015],
+    "make": ["make1", "make2", "make3"],
+    "type:": ["type1", "type2", "type3"],
+    "modal": ["modal1", "modal2", "modal3"]
+  }
 }
