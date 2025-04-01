@@ -12,18 +12,18 @@
     "modal": ["modal1", "modal2", "modal3"]
   },
   "packages": [
-    {"id": 1, "name": "Packcage 1", "service": "service 1", "price": "100", "time": "2"},
-    {"id": 2, "name": "Packcage 2", "service": "service 2", "price": "200", "time": "4"},
-    {"id": 3, "name": "Packcage 3", "service": "service 3", "price": "Start $500.00",
+    {"id": "pa1", "name": "Packcage 1", "service": "service 1", "price": "100", "time": "2"},
+    {"id": "pa2", "name": "Packcage 2", "service": "service 2", "price": "200", "time": "4"},
+    {"id": "pa3", "name": "Packcage 3", "service": "service 3", "price": "Start $500.00",
     "children": [
-      {  "isOption": true, "name": "Option 1", "price": "500", "time": "2", "id": "opt3", "idPackage": "3"},
-      {  "isOption": true, "name": "Option 2", "price": "600", "time": "3", "id": "opt4", "idPackage": "3"}
+      {  "isOption": true, "name": "Option 1", "price": "500", "time": "2", "id": "opt3", "idPackage": "pa3"},
+      {  "isOption": true, "name": "Option 2", "price": "600", "time": "3", "id": "opt4", "idPackage": "pa3"}
     ]},
-    {"id": 4, "name": "Packcage 4", "service": "service 4", "price": "100", "time": "1"},
-    {"id": 5, "name": "Packcage 5", "service": "service 5", "price": "Start $100.00", "time": "2",
+    {"id": "pa4", "name": "Packcage 4", "service": "service 4", "price": "100", "time": "1"},
+    {"id": "pa5", "name": "Packcage 5", "service": "service 5", "price": "Start $100.00", "time": "2",
     "children": [
-      { "isOption": true, "name": "Option 11", "price": "100", "time": "2", "id": "opt1", "idPackage": "5"},
-      {  "isOption": true,"name": "Option 22", "price": "1500", "time": "1", "id": "opt2", "idPackage": "5"}
+      { "isOption": true, "name": "Option 3", "price": "100", "time": "2", "id": "opt1", "idPackage": "pa5"},
+      {  "isOption": true,"name": "Option 4", "price": "1500", "time": "1", "id": "opt2", "idPackage": "pa5"}
     ]}
   ]
 }
